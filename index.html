@@ -6,13 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel ='stylesheet' href ='style.css'>
+
     <script
-		src="https://code.jquery.com/jquery-3.6.0.min.js"
-		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-		crossorigin="anonymous"></script>
-    <script src="script.js" async defer></script>
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+
+    <script src="script.js"async defer></script>
+
+
 </head>
 <body>
-    <h1>Animal Crossing: New Horizons</h1>
+    <h1>Get Information on Shows!</h1>
+    <br>
+<dl>
+  <dt>Show title:</dt>
+    <dd id="name"></dd>  <dt>Language:</dt>
+    <dd id="language"></dd>
+  <dt>Genre:</dt>
+    <dd id="genres"></dd>
+</dl>
+
+<form>
+    <input type="text" placeholder="type in a show title" />
+    <input type="submit" value="Search" />
+  </form>
+
+<p>Type in a name of a show you want to know more about, and click search!</p>
 </body>
 </html>
